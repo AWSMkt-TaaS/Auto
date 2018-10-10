@@ -50,6 +50,7 @@ public class AppTestSteps extends BaseTestSteps{
 
 	@Test(priority=3)
     @When("^I press concatenate button$")
+	// thiswill click the button.
     public void i_press_concatenate_button() throws Throwable {
     	this.base_i_press_concatenate_button();
     }
