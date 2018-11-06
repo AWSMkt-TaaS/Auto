@@ -32,7 +32,7 @@ public class BaseTestSteps {
 	
 	//############################## steps starts here ###############################
    
-   
+   //Set Target browser current options being ...
     public void base_i_am_using_app_url_in_browser_to_navigate_to_the_test_page(String targetbrowser) throws Throwable {
     	appTestManager.setBrowser(targetbrowser);
 		appTestManager.initBrowser();
