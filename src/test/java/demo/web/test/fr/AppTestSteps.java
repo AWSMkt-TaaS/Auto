@@ -51,7 +51,7 @@ public class AppTestSteps extends BaseTestSteps{
 	@Test(priority=3)
     @When("^I press concatenate button$")
 	// this will click the button
-	// this is a change to the file.
+	// this is a second file for testing.
     public void i_press_concatenate_button() throws Throwable {
     	this.base_i_press_concatenate_button();
     }
